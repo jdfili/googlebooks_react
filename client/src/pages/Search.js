@@ -36,7 +36,7 @@ class Search extends Component {
       thumbnail: post[0].volumeInfo.imageLinks.thumbnail
     }).then(res =>
       alert("Saved to your library!")
-      )
+    )
       .catch(err => console.log(err))
     // API.saveBook(data)
   }
@@ -51,8 +51,8 @@ class Search extends Component {
     return (
       <div>
         <Nav />
+        <Jumbotron />
         <Container>
-          <Jumbotron />
           <Form
             onClick={this.handleFormSubmit}
             onChange={this.handleInputChange}

@@ -29,8 +29,8 @@ class Saved extends Component {
     return (
       <div>
         <Nav />
+        <Jumbotron />
         <Container>
-          <Jumbotron />
           {this.state.saved.map(book => {
             return (
               <div>

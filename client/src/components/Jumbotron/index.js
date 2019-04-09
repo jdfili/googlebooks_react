@@ -2,7 +2,7 @@ import React from 'react';
 import "./style.css"
 function Jumbotron(props){
     return (
-        <div className="jumbotron text-center mt-4">
+        <div className="jumbotron text-center">
             <h3>Google Books</h3>
         </div>
     )
